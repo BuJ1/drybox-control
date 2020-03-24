@@ -28,3 +28,9 @@ Power Supply Cable (5m)                 | SMART 108 2 x 1.50mm Grey             
 Diode                                   | P600D P600 200 V 6 A                  | Diotec Semiconductor
 
 ## Helpful Tutorials
+
+Without the matching click adapter from MikroE I do not recommend to use the 4-20mA current loop board since
+the programming is quite annoying and the result in my case rather inaccurate. To still make it work I followed
+the tutorial in
+    <https://electronza.com/4-20ma-current-loop-arduino-receiver/>
+where I did the calibration using a multimeter and the humidity sensor that needed to be read out.
